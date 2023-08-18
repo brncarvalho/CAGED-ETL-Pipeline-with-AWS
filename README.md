@@ -3,6 +3,7 @@
 
 My primary goal with this the project was to get acquainted with AWS resources to extract, process, and analyze the employment-related data from CAGED (Cadastro Geral de Empregados e Desempregados). CAGED stands for General Registry of Employed and Unemployed Persons, which is a system used by the brazilian Ministry of Labor and Employment to record hirings and layoffs of workers in Brazil. It was created with the purpose of providing detailed information for the development of public policies and statistics about the job market. For the analytics purpose of this project, it was extracted data from 2010 to 2023, total of 156 files and 50.2 GB size.
 
+
 It’s important to mention that since January 2020, the use of the General Registry of Employed and Unemployed Persons (Caged) system has been replaced by the Digital System of Fiscal, Social Security, and Labor Obligations Reporting (eSocial) for some companies, as established by Decree SEPRT No. 1,127 of October 14, 2019. This system replacement caused some changes in the data structure and mapping nomenclature when compared with data previous from 2020. Therefore, the analytics purpose of grabbing data from 2010 to 2019 was to build a time series model and do some forecasting regarding the monthly balance amount (monthly difference of the amount of hirings and layoffs) for 2024 and 2025.
 
 # Data Source
